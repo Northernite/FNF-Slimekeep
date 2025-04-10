@@ -1,0 +1,7 @@
+{
+	"name": "FNF Slimekeep REDUX",
+	"description": "A short one song mod about the game Slimekeep, rap against carlos and his slime pet!",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [50, 210, 75]
+}

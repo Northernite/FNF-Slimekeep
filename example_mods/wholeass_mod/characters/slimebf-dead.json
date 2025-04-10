@@ -1,0 +1,97 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 16,
+			"name": "Die",
+			"indices": [
+				0,
+				0,
+				1,
+				1,
+				2,
+				3,
+				4,
+				4,
+				5
+			]
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "Retry"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 10,
+			"name": "Loop",
+			"indices": [
+				0,
+				0,
+				1,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/SlimeBf",
+	"position": [
+		150,
+		600
+	],
+	"healthicon": "Slimebf",
+	"flip_x": true,
+	"healthbar_colors": [
+		60,
+		239,
+		90
+	],
+	"camera_position": [
+		-20,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 10,
+	"_editor_isPlayer": true
+}

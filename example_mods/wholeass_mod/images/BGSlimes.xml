@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BGSlimes.png">
+<SubTexture name="BGSlimes BGSlimes0000" x="0" y="170" width="310" height="70" frameX="-190" frameY="-220" frameWidth="700" frameHeight="700" />
+<SubTexture name="BGSlimes BGSlimes0001" x="0" y="90" width="310" height="80" frameX="-190" frameY="-210" frameWidth="700" frameHeight="700" />
+<SubTexture name="BGSlimes BGSlimes0002" x="0" y="0" width="310" height="90" frameX="-190" frameY="-200" frameWidth="700" frameHeight="700" />
+<SubTexture name="BGSlimes BGSlimes0004" x="0" y="90" width="310" height="80" frameX="-190" frameY="-210" frameWidth="700" frameHeight="700" />
+</TextureAtlas>

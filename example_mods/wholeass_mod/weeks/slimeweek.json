@@ -1,0 +1,50 @@
+{
+	"storyName": "SLIMEWEEK",
+	"difficulties": "normal, hard, easy",
+	"hideFreeplay": false,
+	"weekBackground": "Slimweek",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Ruins",
+			"carlos",
+			[
+				86,
+				255,
+				115
+			]
+		],
+		[
+			"Goop",
+			"carlos",
+			[
+				86,
+				255,
+				115
+			]
+		],
+		[
+			"Targetempo",
+			"carlos",
+			[
+				86,
+				255,
+				115
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Slimekeep"
+}
