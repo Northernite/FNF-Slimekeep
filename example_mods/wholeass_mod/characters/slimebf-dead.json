@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "firstDeath",
+			"loop": false,
 			"fps": 16,
-			"name": "Die",
+			"anim": "firstDeath",
 			"indices": [
 				0,
 				0,
@@ -19,28 +18,28 @@
 				4,
 				4,
 				5
-			]
+			],
+			"name": "Die"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"fps": 16,
-			"anim": "deathConfirm",
-			"indices": [],
-			"name": "Retry"
-		},
-		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "deathLoop",
+			"anim": "deathConfirm",
+			"fps": 16,
+			"name": "Retry",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
 			"fps": 10,
-			"name": "Loop",
+			"anim": "deathLoop",
 			"indices": [
 				0,
 				0,
@@ -70,7 +69,8 @@
 				2,
 				2,
 				2
-			]
+			],
+			"name": "Loop"
 		}
 	],
 	"vocals_file": "",
@@ -78,7 +78,7 @@
 	"image": "characters/SlimeBf",
 	"position": [
 		150,
-		600
+		520
 	],
 	"healthicon": "Slimebf",
 	"flip_x": true,
@@ -88,8 +88,8 @@
 		90
 	],
 	"camera_position": [
-		-20,
-		0
+		0,
+		-120
 	],
 	"sing_duration": 4,
 	"scale": 10,

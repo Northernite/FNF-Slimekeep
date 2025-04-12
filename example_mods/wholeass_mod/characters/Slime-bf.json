@@ -1,157 +1,157 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
+			"fps": 16,
+			"name": "Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "Right",
 			"indices": [
 				0,
 				1,
 				2
-			],
-			"fps": 16,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "Right"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "Right",
 			"indices": [
 				3,
 				4,
 				5
-			],
-			"fps": 16,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Right"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "Idle",
 			"indices": [
 				0,
 				1,
 				2,
 				3
-			],
-			"fps": 16,
-			"anim": "idle",
-			"loop": false,
-			"name": "Idle"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "singUP",
+			"fps": 16,
+			"name": "Up",
 			"indices": [
 				0,
 				1,
 				2
-			],
-			"fps": 16,
-			"anim": "singUP",
-			"loop": false,
-			"name": "Up"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "hey",
+			"fps": 16,
+			"name": "Hey",
 			"indices": [
 				0,
 				0,
 				1,
 				2,
 				3
-			],
-			"fps": 16,
-			"anim": "hey",
-			"loop": false,
-			"name": "Hey"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "singLEFTmiss",
+			"fps": 16,
+			"name": "MissRight",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			],
-			"fps": 16,
-			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "MissRight"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"anim": "singRIGHTmiss",
+			"fps": 16,
+			"name": "MissRight",
 			"indices": [
 				2,
 				2,
 				3,
 				3
-			],
-			"fps": 16,
-			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "MissRight"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [
-				0,
-				0,
-				1,
-				1
-			],
-			"fps": 16,
 			"anim": "singDOWNmiss",
-			"loop": false,
-			"name": "MissDown"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
+			"fps": 16,
+			"name": "MissDown",
 			"indices": [
 				0,
 				0,
 				1,
 				1
-			],
-			"fps": 16,
-			"anim": "singUPmiss",
+			]
+		},
+		{
 			"loop": false,
-			"name": "MissUp"
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 16,
+			"name": "MissUp",
+			"indices": [
+				0,
+				0,
+				1,
+				1
+			]
 		}
 	],
 	"vocals_file": "",
@@ -159,7 +159,7 @@
 	"image": "characters/SlimeBf",
 	"position": [
 		150,
-		600
+		520
 	],
 	"healthicon": "Slimebf",
 	"flip_x": true,
@@ -169,8 +169,8 @@
 		98
 	],
 	"camera_position": [
-		-20,
-		0
+		0,
+		-120
 	],
 	"sing_duration": 4,
 	"scale": 10,

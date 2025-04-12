@@ -85,7 +85,7 @@
 		},
 		{
 			"offsets": [
-				3,
+				0,
 				0
 			],
 			"loop": false,
@@ -125,7 +125,7 @@
 	"image": "characters/SlimePet",
 	"position": [
 		150,
-		600
+		520
 	],
 	"healthicon": "SlimePet",
 	"flip_x": false,
@@ -136,7 +136,7 @@
 	],
 	"camera_position": [
 		-230,
-		200
+		-80
 	],
 	"sing_duration": 4,
 	"scale": 10,

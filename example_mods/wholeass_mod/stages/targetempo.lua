@@ -23,18 +23,18 @@ function onCreate()
 	
 	makeAnimatedLuaSprite('Slimes', 'BGSlimes', -740, -220);
 	addAnimationByPrefix('Slimes', 'BGSlimes', 'BGSlimes', 6, true)
-	setProperty('Background.antialiasing', false); 
-	setScrollFactor('Background', 0.8, 0.8);
-	scaleObject('Background', 1, 1);
+	setProperty('Slimes.antialiasing', false); 
+	setScrollFactor('Slimes', 1, 1);
+	scaleObject('Slimes', 1, 1);
 	
 	makeLuaSprite('Sunshine', 'SunshineLayer', 300, 300)
-	setProperty('Foreground.antialiasing', true); 
-	setScrollFactor('Foreground', 2, 2);
-	scaleObject('Foreground', 1, 1);
+	setProperty('Sunshine.antialiasing', true); 
+	setScrollFactor('Sunshine', 2, 2);
+	scaleObject('Sunshine', 1, 1);
 
-	makeLuaSprite('Foreground', 'ForegroundLayer', -2000, -900)
+	makeLuaSprite('Foreground', 'ForegroundLayer', -1500, -900)
 	setProperty('Foreground.antialiasing', true); 
-	setScrollFactor('Foreground', 2, 2);
+	setScrollFactor('Foreground', 1.3, 1.3);
 	scaleObject('Foreground', 1, 1);
 
 	createInstance('Filter','flixel.addons.display.FlxBackdrop',{nil,0x01})

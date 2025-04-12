@@ -22,13 +22,13 @@ function onCreate()
 	scaleObject('Stage', 1, 1);
 	
 	makeLuaSprite('Sunshine', 'SunshineLayer', 300, 300)
-	setProperty('Foreground.antialiasing', true); 
-	setScrollFactor('Foreground', 2, 2);
-	scaleObject('Foreground', 1, 1);
+	setProperty('Sunshine.antialiasing', true); 
+	setScrollFactor('Sunshine', 2, 2);
+	scaleObject('Sunshine', 1, 1);
 
-	makeLuaSprite('Foreground', 'ForegroundLayer', -2000, -900)
+	makeLuaSprite('Foreground', 'ForegroundLayer', -1500, -900)
 	setProperty('Foreground.antialiasing', true); 
-	setScrollFactor('Foreground', 2, 2);
+	setScrollFactor('Foreground', 1.3, 1.3);
 	scaleObject('Foreground', 1, 1);
 
 	makeLuaSprite('FilterStatic', 'AltYellowFilter', -1300,-600)
