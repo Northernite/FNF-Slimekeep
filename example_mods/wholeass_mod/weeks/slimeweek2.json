@@ -1,0 +1,50 @@
+{
+	"storyName": "Farding",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "Slimeweek",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Smelly",
+			"Smellson",
+			[
+				166,
+				255,
+				173
+			]
+		],
+		[
+			"Bonkers",
+			"Benbonk",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Checkmate",
+			"CarlosMad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "SmellsonWeek",
+	"hiddenUntilUnlocked": false
+}

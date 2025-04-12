@@ -1,13 +1,14 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "danceLeft",
+			"fps": 16,
+			"name": "DanceLeft",
 			"indices": [
 				30,
 				0,
@@ -25,83 +26,83 @@
 				12,
 				13,
 				14
-			],
-			"name": "DanceLeft"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "danceRight",
-			"indices": [],
-			"name": "DanceRight"
+			"fps": 16,
+			"name": "DanceRight",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Left"
+			"fps": 16,
+			"name": "Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
+			"fps": 16,
+			"name": "Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Up"
+			"fps": 16,
+			"name": "Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right"
+			"fps": 16,
+			"name": "Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "cheer",
-			"indices": [],
-			"name": "Hey"
+			"fps": 16,
+			"name": "Hey",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "sad",
+			"fps": 16,
+			"name": "Cry",
 			"indices": [
 				0,
 				1,
@@ -116,16 +117,15 @@
 				10,
 				11,
 				12
-			],
-			"name": "Cry"
+			]
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": true,
 	"image": "characters/SlimePet",
 	"position": [
-		150,
-		520
+		400,
+		420
 	],
 	"healthicon": "SlimePet",
 	"flip_x": false,
