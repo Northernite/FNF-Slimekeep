@@ -1,20 +1,16 @@
 {
 	"storyName": "SLIMEWEEK",
-	"difficulties": "Easy, Standard",
+	"difficulties": "Standard, Easy",
 	"hideFreeplay": false,
 	"weekBackground": "Slimweek",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Ruins",
@@ -44,7 +40,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "Slimekeep",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Slimekeep"
 }

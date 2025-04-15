@@ -2,7 +2,8 @@ function opponentNoteHit()
     health = getProperty('health')
     if getProperty('health') > 0.02 then
 
-    if curStep < 272 then
+    if curStep > 272 then
         setProperty('health', health- 0.01);
+    end
     end
 end

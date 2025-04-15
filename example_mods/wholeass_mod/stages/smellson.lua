@@ -11,10 +11,10 @@ function onCreate()
 	setScrollFactor('Cloud', 0.5, 0.5);
 	scaleObject('Cloud', 1, 1);
 	
-	makeLuaSprite('Background', 'SmellsonBG/Hill', -1200, -600);
+	makeLuaSprite('Background', 'SmellsonBG/Hill', -4000, -700);
 	setProperty('Background.antialiasing', false); 
 	setScrollFactor('Background', 0.8, 0.8);
-	scaleObject('Background', 1, 1);
+	scaleObject('Background', 3, 1);
 	
 	makeLuaSprite('Trees', 'SmellsonBG/Trees', -1200, -1000);
 	setProperty('Trees.antialiasing', false); 
@@ -44,5 +44,4 @@ function onCreate()
 	addLuaSprite('Foreground', true)
 	addLuaSprite('Sunshine', true)
 
-	close(true);
 end
