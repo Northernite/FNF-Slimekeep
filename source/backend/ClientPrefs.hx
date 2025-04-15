@@ -67,7 +67,7 @@ import states.TitleState;
 		'opponentplay' => false
 	];
 
-	public var comboOffset:Array<Int> = [0, 0, 0, 0];
+	public var comboOffset:Array<Int> = [573, -318, 735, -64];
 	public var ratingOffset:Int = 0;
 	public var sickWindow:Int = 50;
 	public var goodWindow:Int = 95;
@@ -84,9 +84,9 @@ class ClientPrefs {
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
 	public static var keyBinds:Map<String, Array<FlxKey>> = [
 		//Key Bind, Name for ControlsSubState
-		'note_up'		=> [D, UP],
-		'note_left'		=> [F, LEFT],
-		'note_down'		=> [J, DOWN],
+		'note_up'		=> [J, UP],
+		'note_left'		=> [D, LEFT],
+		'note_down'		=> [F, DOWN],
 		'note_right'	=> [K, RIGHT],
 		
 		'ui_up'			=> [W, UP],
