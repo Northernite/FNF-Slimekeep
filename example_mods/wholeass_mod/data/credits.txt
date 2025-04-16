@@ -1,4 +1,9 @@
 FNF Slimekeep
-Nina.Northen::Niner::Creator and Manager, Artist, Composer and Charter::https://twitter.com/NinaNorthenFNF::0xFF853219
-Anilmky-Juno::June::General assistance/Bug Fixing aswell as Composing, Charting and many Song touch-ups::https://twitter.com/anilmky_nikko::0xFF761885
+Nina.Northen::Niner::Director, Artist, Composer, Charter, Programmer::https://x.com/NinaNorthenFNF::0xFF853219
+Abiucs_NULL::June::Composer, Charter, Programmer::https://x.com/anilmky_nikko::0xFF761885
+FurretWithATophat::Furret::Programmer::https://x.com/FurretTophat::0xFF853219
+3Beta::Beta::Composer::::0xFF853219
+Paper64::Paper::Artist::https://x.com/PaperGuy64::0xFF853219
+Lazibones73::Lazi::Charter::https://x.com/lazibones73::0xFF853219
+
 Benbonk::Benbong::Creator of Slimekeep::https://benbonk.itch.io/::0xFF18865F
