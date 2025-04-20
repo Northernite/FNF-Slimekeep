@@ -35,7 +35,7 @@ function onCreate()
 	setProperty('FilterStatic.antialiasing', true); 
 	setScrollFactor('FilterStatic', 0, 0);
 	scaleObject('FilterStatic', 2, 2);
-	setProperty('FilterStatic.alpha', 1)
+	setProperty('FilterStatic.alpha', 0)
 	screenCenter('FilterStatic')
 
 	addLuaSprite('Sky', false)
@@ -46,5 +46,15 @@ function onCreate()
 	addLuaSprite('Foreground', true)
 	addLuaSprite('FilterStatic', true)
 
-
+function onStepHit()
+	if curStep == 719 then
+		setProperty('FilterStatic.alpha', 0.6)
+	end
+	if curStep == 975 then
+		setProperty('FilterStatic.alpha', 0.3)
+	end
+	if curStep == 1375 then
+		doTweenAlpha('tweenFilterStatic', trinilear, 0.3, 6)
+	end
+end
 end
